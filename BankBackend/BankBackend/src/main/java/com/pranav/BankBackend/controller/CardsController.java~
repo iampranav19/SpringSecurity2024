@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/welcome")
-public class WelcomeController {
+@RequestMapping("/cards")
+public class CardsController {
 
     @GetMapping
     public String welcome() {
@@ -25,7 +25,7 @@ public class WelcomeController {
         return num1 - num2;
     }
 
-    // Basic Authentication
+    // Basic Authentication 
 
 
 
