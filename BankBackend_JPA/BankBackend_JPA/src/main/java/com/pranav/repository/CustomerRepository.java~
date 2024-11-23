@@ -1,7 +1,0 @@
-package com.pranav.repository;
-
-import com.pranav.entity.Customer;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public class CustomerRepository extends JpaRepository<Customer, Integer> {
-}
