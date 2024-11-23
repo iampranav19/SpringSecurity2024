@@ -1,0 +1,4 @@
+package com.pranav.BankBackend.dto;
+
+public class UserRegistrationDTO {
+}
