@@ -8,6 +8,8 @@ public class BankBackendJpaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankBackendJpaApplication.class, args);
+		System.out.println("++++++++++++ Bank Backend JPA Up and Running ++++++++++++");
+
 	}
 
 }
